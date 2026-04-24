@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>tasteoftuscany</title>
+        <link type="text/css" rel="stylesheet" href="w16_Tuscany.css" /> <!-- link to the css style sheet-->
+    </head>
+    <body>
+        <article>
+            <div class="section-one">
+                <h1>A Taste Of Tuscany</h1>
+                <h2>Italian Restaurant</h2>
+                <p>234 Arezzo Avenue</p>
+                <p>Sherwood Park</p>
+                <p>
+                    <img src ="https://assets.bonappetit.com/photos/5ca680eff7c9b51309c95d26/16:9/w_1280,c_limit/luigis-2.jpg"
+                    width="320" 
+                    alt="Image of Restaurant"/>
+                </p>
+                <script>
+                    function Specials(elem) {
+                    let popup = document.querySelector(".specials");
+                    popup.style.display = "block";
+                    }
+                </script>
+                <ul>
+                    <li>Fine Italian Dining</li>
+                    <li style="color: red;" onclick = "Specials(this)">Daily Specials</li>
+                    <li>Licensed</li>
+                    <li>Banquet Room</li>
+                    <li>Open Daily Until 11pm</li>
+                    <li>Eat In, Take Out, Delivery</li>
+                    <li>Call 780.555.1234</li>
+                </ul>
+                <p style="max-width: 20px;"> <!--this is to test if i can scroll-->
+                    o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o 
+                    o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o o 
+                </p>
+            </div>
+        </article>
+    <!---------------Specials--------------->
+        <article class="specials">
+            <div class="section-two">
+                <script>
+                    function Home(elem) {
+                    let popup = document.querySelector(".specials");
+                    popup.style.display = "none";
+                    }
+                </script>
+                <h1><i>Today's Special</i></h1>
+                <h2><i>Valigette</i>(Beef Rolls)</h2>
+                <img src ="https://www.saratasty.com/wp-content/uploads/2024/02/beef-braciole-involtini.jpg" 
+                width="320" alt="Valigette"/>
+                <p>Contains Any 2 Of:</p>
+                <ol>
+                    <li><i>Pasta E Fagioli</i></li>
+                    <li><i>Ravioli Nudi</i></li>
+                    <li><i>Fettunta</i></li>
+                    <li><i>Crostini Con Salsiccia</i></li>
+                    <li><i>Ribollita</i></li>
+                </ol>
+                <p style="font-size: 18px; color: red;" onclick="Home(this)">Home</p>
+            </div>
+        </article>
+    </body>
+</html>

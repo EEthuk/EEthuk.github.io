@@ -1,0 +1,51 @@
+            /* section one */
+            .section-one h1{
+                text-align: center; 
+                font-size: 32px;
+            }
+            .section-one h2{
+                text-align: center; 
+                font-size: 24px;
+            }
+            .section-one p{
+                text-align: center;
+            }
+            .section-one ul{
+                display: table;
+                margin: 0 auto;  
+                text-align: center;
+            }
+
+            /* section two */
+            .section-two h1{
+                text-align: center; 
+                font-size: 32px;
+            }
+            .section-two h2{
+                text-align: center; 
+                font-size: 24px;
+            }
+            .section-two p{
+                text-align: center;
+            }
+            .section-two div{
+                text-align: center; 
+                font-size: 18px;
+            }
+            .section-two ol{
+                display: inline-block; 
+                text-align: left;
+            }
+
+            /* popup */
+            .specials{
+                display: none;
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: white;
+                padding: 40px;
+                border: 3px solid black;
+                width: auto; height: auto;
+            }
